@@ -1,7 +1,7 @@
 public with sharing class AccountController{
     @AuraEnabled(cacheable=true)
     public static List<Account> getAccList(){
-        return [SELECT Id, Name FROM ACCOUNT ORDER BY CreatedDate desc Limit 10];
+        return [SELECT Id, Name FROM ACCOUNT ORDER BY CreatedDate desc Limit 110];
     }
 
     @AuraEnabled(cacheable=true)
