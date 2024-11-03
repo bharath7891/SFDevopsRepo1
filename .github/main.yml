@@ -34,7 +34,7 @@ jobs:
           ~/sfdx/bin/sfdx version
       - name: Populate auth file with SFDX_URL secret of target org
         run: |
-          echo ${{ secrets.SFDX_int}} > ./SFDX_int.txt
+          echo ${{ secrets.SFDX_INT}} > ./SFDX_int.txt
       - name: Authenticate to target Org
         run: sfdx auth:sfdxurl:store -f ./SFDX_int.txt -s -a targetOrg
       - name: Installing sfdx git delta
