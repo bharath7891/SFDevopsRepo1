@@ -4,6 +4,7 @@ export default class TestComponent1 extends LightningElement {
 
     //Test123
     @wire(getAccountList)
+    //DUMMY COMMIT TO TRIGGER
     /*wiredAccounts({error, data}){
         if(data){
             this.accounts = data;
