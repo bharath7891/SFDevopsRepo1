@@ -3,7 +3,7 @@ import getAccountList from '@salesforce/apex/AccountController.getAccList';
 export default class TestComponent1 extends LightningElement {
     accounts;
     error;
-
+    //Test123
     @wire(getAccountList)
     wiredAccounts({error, data}){
         if(data){
