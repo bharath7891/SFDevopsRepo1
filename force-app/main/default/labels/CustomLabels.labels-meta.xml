@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>AssetAccountRefName</fullName>
+        <categories>AssetAccountRef</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AssetAccountRefName</shortDescription>
+        <value>Inventory Asset</value>
+    </labels>
+    <labels>
+        <fullName>AssetAccountRefValue</fullName>
+        <categories>AssetAccountRef</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AssetAccountRefValue</shortDescription>
+        <value>81</value>
+    </labels>
+    <labels>
+        <fullName>CallbackAPIEndpoint</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>CallbackAPIEndpoint</shortDescription>
+        <value>razorpay-callback</value>
+    </labels>
+    <labels>
+        <fullName>EventInfoBookingPage</fullName>
+        <categories>event</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>EventInfoBookingPage</shortDescription>
+        <value>&lt;div class=&quot;info&quot;&gt;
+            &lt;h1&gt;Book tickets for &lt;span class=&quot;highlight&quot;&gt;Mule Dreamin&lt;/span&gt;&lt;/h1&gt;
+            &lt;p&gt;Fuel your knowledge, synergy, and social impact in the MuleSoft &amp; Salesforce realm&lt;/p&gt;
+            &lt;h2&gt;About Mule Dreamin&lt;/h2&gt;
+            &lt;p&gt;Mule Dreamin strives to cultivate a culture of learning, collaboration, and community involvement within
+                the MuleSoft and Salesforce ecosystem. It empowers attendees to deepen their comprehension of MuleSoft
+                and Salesforce technologies, exchange innovative ideas, and forge connections with like-minded
+                professionals.&lt;/p&gt;
+            &lt;h3 style=&quot;color: red;&quot;&gt;Terms &amp; Conditions&lt;/h3&gt;
+            &lt;p&gt;Once bought, no monetary refunds will be given. You can only transfer the ticket to another person. You
+                must inform the recipient of details to the organizing team by writing an email to the organizing team.
+            &lt;/p&gt;
+        &lt;/div&gt;</value>
+    </labels>
+    <labels>
+        <fullName>EventName</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>EventName</shortDescription>
+        <value>One Dreamin</value>
+    </labels>
+    <labels>
+        <fullName>EventPrefix</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>EventPrefix</shortDescription>
+        <value>MD-</value>
+    </labels>
+    <labels>
+        <fullName>EventYear</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>EventYear</shortDescription>
+        <value>2024</value>
+    </labels>
+    <labels>
+        <fullName>ExpenseAccountRefName</fullName>
+        <categories>ExpenseAccountRef</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ExpenseAccountRefName</shortDescription>
+        <value>Cost of Goods Sold</value>
+    </labels>
+    <labels>
+        <fullName>ExpenseAccountRefValue</fullName>
+        <categories>ExpenseAccountRef</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ExpenseAccountRefValue</shortDescription>
+        <value>80</value>
+    </labels>
+    <labels>
+        <fullName>IncomeAccountRefName</fullName>
+        <categories>IncomeAccountRef</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>IncomeAccountRefName</shortDescription>
+        <value>Sales of Product Income</value>
+    </labels>
+    <labels>
+        <fullName>IncomeAccountRefValue</fullName>
+        <categories>IncomeAccountRef</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>IncomeAccountRefValue</shortDescription>
+        <value>79</value>
+    </labels>
+    <labels>
+        <fullName>OPENCAGE_API_KEY</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>OPENCAGE_API_KEY</shortDescription>
+        <value>ju0a9xOiKqBWCumQ0</value>
+    </labels>
+    <labels>
+        <fullName>OPENCAGE_API_URL</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>OPENCAGE_API_URL</shortDescription>
+        <value>https://api.opencagedata.com/geocode/v1/json</value>
+    </labels>
+    <labels>
+        <fullName>PS_AttendeeEmail</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PS_AttendeeEmail</shortDescription>
+        <value>youremail@gmail.com</value>
+    </labels>
+    <labels>
+        <fullName>PS_CalendarEmail</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PS_CalendarEmail</shortDescription>
+        <value>youremail@gmail.com</value>
+    </labels>
+    <labels>
+        <fullName>PS_GoogleTokenLabel</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PS_GoogleTokenLabel</shortDescription>
+        <value>PS_GoogleToken</value>
+    </labels>
+    <labels>
+        <fullName>PS_SalesforceTokenLabel</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PS_SalesforceTokenLabel</shortDescription>
+        <value>PS_SalesforceToken</value>
+    </labels>
+    <labels>
+        <fullName>PS_ZoomTokenLabel</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PS_ZoomTokenLabel</shortDescription>
+        <value>PS_ZoomToken</value>
+    </labels>
+    <!--<labels>
+        <fullName>Zendesk_APITOKEN</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Zendesk_APITOKEN</shortDescription>
+        <value>87xOiKqBW3xOiKqBW45</value>
+    </labels>
+    <labels>
+        <fullName>Zendesk_Username</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Zendesk_Username</shortDescription>
+        <value>youremail@gmail.com/token</value>
+    </labels> -->
+</CustomLabels>
