@@ -1,5 +1,10 @@
 <template>
-    <lightning-card title="Wired with Property" icon-name="utility:user">
+    <lightning-card title="Wired using Imperative Method" icon-name="utility:user">
+        <div class="slds-var-m-around_medium">
+            <lightning-button label="Get Accounts" onclick={buttonClick}>
+
+            </lightning-button>
+        </div>
         <template if:true={accounts}>
             <div class="slds-var-m-around_medium">
                 <template for:each={accounts} for:item="acc">
@@ -7,12 +12,14 @@
                         <lightning-layout-item flexibility="grow">
                             {acc.Name}
                         </lightning-layout-item>
+                        
                     </lightning-layout>
                 </template>
             </div>
-        </template>
-        <template if:true={error}>
-            <p>Error: {error}</p>
+            <div class="slds-var-m-around_medium">
+                <br/>
+                {error}
+            </div>
         </template>
     </lightning-card>
 </template>

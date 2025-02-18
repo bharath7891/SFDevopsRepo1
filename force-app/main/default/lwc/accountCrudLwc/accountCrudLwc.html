@@ -1,0 +1,37 @@
+<template>
+    <lightning-card title="Account CRUD Operations">
+        <div class="slds-m-around_medium">
+            <h3>Create Account</h3>
+            <lightning-input label="Name" name="Name" value={newAccount.Name} onchange={handleInputChange}></lightning-input>
+            <lightning-input label="Phone" name="Phone" value={newAccount.Phone} onchange={handleInputChange}></lightning-input>
+            <lightning-input label="Industry" name="Industry" value={newAccount.Industry} onchange={handleInputChange}></lightning-input>
+            <lightning-button label="Create Account" onclick={createAccountHandler}></lightning-button>
+        </div>
+
+        <template if:true={isEditing}>
+            <div class="slds-m-around_medium">
+                <h3>Edit Account</h3>
+                <lightning-input label="Name" name="Name" value={editAccount.Name} onchange={handleInputChange}></lightning-input>
+                <lightning-input label="Phone" name="Phone" value={editAccount.Phone} onchange={handleInputChange}></lightning-input>
+                <lightning-input label="Industry" name="Industry" value={editAccount.Industry} onchange={handleInputChange}></lightning-input>
+                <lightning-button label="Update Account" onclick={updateAccountHandler}></lightning-button>
+                <lightning-button label="Cancel" onclick={cancelEdit}></lightning-button>
+            </div>
+        </template>
+
+        <div class="slds-m-around_medium">
+            <h3>Accounts List</h3>
+            <template if:true={accounts}>
+                <template for:each={accounts} for:item="account">
+                    <div key={account.Id} class="slds-box slds-m-around_small">
+                        <p>Name: {account.Name}</p>
+                        <p>Phone: {account.Phone}</p>
+                        <p>Industry: {account.Industry}</p>
+                        <lightning-button label="Edit" data-id={account.Id} onclick={editAccountHandler}></lightning-button>
+                        <lightning-button label="Delete" data-id={account.Id} onclick={deleteAccountHandler}></lightning-button>
+                    </div>
+                </template>
+            </template>
+        </div>
+    </lightning-card>
+</template>
